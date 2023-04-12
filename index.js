@@ -13,8 +13,8 @@ function demo3(){
     document.getElementById("words").style.cursor ='pointer'
 }
 function view(){
-    document.getElementById("body1").style.display ='flex'
-    document.getElementById("btn").style.cursor ='pointer'
+  document.getElementById("body1").style.display ='flex'
+  document.getElementById("btn").style.cursor ='pointer'
 }
 function changeImage(x,image1){
   if(x==1){
@@ -23,4 +23,12 @@ function changeImage(x,image1){
   if(x==2){
     image1.src ="pexel-photo.jpg"
   }
+}
+function change(){
+  document.getElementById("btn").style.backgroundColor ='white'
+  document.getElementById("btn").style.cursor ='pionter'
+}
+function change2(){
+  document.getElementById("btn").style.backgroundColor ='green'
+
 }
